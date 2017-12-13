@@ -1,9 +1,3 @@
-var data = {
-	"rest":{
-		"AS": {"name": "El ají seco", "food": "Peruvian", "location": "Santiago"},
-		"LG": {"name": "Liguria", "food": "Chilean", "location": "Providencia"},
-		"MR": {"name": "Margarita", "food": "Mexican", "location": "Las Condes"},
-	}
-};
+var restaurantes = [{"name": "El ají seco", "food": "Peruvian", "location": "Santiago", "image" : "http://www.elajiseco.cl/slider/images/elajiseco_mistico/foto01.jpg"},{"name": "Liguria", "food": "Chilean", "location": "Providencia", "image":"https://teatro-nescafe-delasartes.cl/wp-content/uploads/2014/05/liguria-TNA-01.jpg"}, {"name": "Margarita", "food": "Mexican", "location": "Las Condes", "image" : "https://static.vix.com/es/sites/default/files/styles/large/public/imj/4/4-razones-por-las-que-la-comida-mexicana-es-tan-unica-2.jpg?itok=edyVg4U1"}];
 
-console.log(data);
+console.log(restaurantes);

@@ -85,3 +85,7 @@ hr {
 	background-image: url(https://img.buzzfeed.com/buzzfeed-static/static/2017-03/29/15/campaign_images/buzzfeed-prod-fastlane-03/26-delicious-korean-foods-you-need-in-your-life-2-30138-1490814365-13_dblbig.jpg);
 	height: 100px;
 }
+
+.all {
+	display: none;
+}
