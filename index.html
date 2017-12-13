@@ -62,13 +62,13 @@
 					</div>
 					<div class="row">
 						<div class="col s12 comida">
-							<a class='dropdown-button btn' href='#' data-activates='dropdown1'>Busca tu restaurant <i class="material-icons">arrow_drop_down</i></a>
+							<a class='dropdown-button btn button' href='#' data-activates='dropdown1'>Busca tu restaurant <i class="material-icons">arrow_drop_down</i></a>
 						  <ul id='dropdown1' class='dropdown-content'>
 						    <li><a id="rest" href="#!">Nombre Restaurant <i class="material-icons">format_quote</i></a></li>
 						    <li class="divider"></li>
-						    <li><a href="#!">Tipo de Comida <i class="material-icons">local_dining</i></a></li>
+						    <li><a id="food" href="#!">Tipo de Comida <i class="material-icons">local_dining</i></a></li>
 						    <li class="divider"></li>
-						    <li><a href="#!">Ubicación <i class="material-icons">location_on</i></a></li>
+						    <li><a href="#!" id="location">Ubicación <i class="material-icons">location_on</i></a></li>
 						  </ul>
 						</div>
 					</div>
@@ -78,13 +78,19 @@
 				<div class="container">
 					<div class="row">
 						<div class="col s4">
-							<div class="img one" id="img0"></div>
+							<div class="img one modal-trigger" id="img0" href="#modal1">
+								<h4 class="comida" id="aji" style="display: none;">El Ají Seco</h4>
+							</div>
 						</div>
 						<div class="col s4" >
-							<div class="img two" id="img1"></div>
+							<div class="img two modal-trigger" id="img1" href="#modal2">
+								<h4 class="comida" id="liguria" style="display: none;">Liguria</h4>
+							</div>
 						</div>
 						<div class="col s4">
-							<div class="img three" id="img2"></div>
+							<div class="img three modal-trigger" id="img2" href="#modal3">
+								<h4 class="comida" id="margarita" style="display: none;">Margarita</h4>
+							</div>
 						</div>
 					</div>
 					<div class="row" id="hidden">
@@ -96,6 +102,38 @@
 						</div>
 					</div>
 				</div>
+			</section>
+			<section class="modales">
+				<!-- Modal Structure -->
+			  <div id="modal1" class="modal">
+			    <div class="modal-content">
+			      <h4>Modal Header</h4>
+			      <p>A bunch of text</p>
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat yellow darken-1">Close</a>
+			    </div>
+			  </div>
+
+			  <div id="modal2" class="modal">
+			    <div class="modal-content">
+			      <h4>Modal Header</h4>
+			      <p>A bunch of text</p>
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-action modal-close waves-effect waves-green btn">Close</a>
+			    </div>
+			  </div>
+
+			  <div id="modal3" class="modal">
+			    <div class="modal-content">
+			      <h4>Modal Header</h4>
+			      <p>A bunch of text</p>
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-action modal-close waves-effect waves-green btn">Close</a>
+			    </div>
+			  </div>
 			</section>
 		</div>
 
