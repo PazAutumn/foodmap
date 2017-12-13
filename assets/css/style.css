@@ -36,6 +36,10 @@ section {
 	color: #D37B2C;
 }
 
+.comida span {
+		font-size: 30px;
+}
+
 hr {
 	border: 1px solid white;
 }

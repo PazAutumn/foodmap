@@ -13,8 +13,8 @@ $(document).ready(()=> {
 	$("#rest").click(function(){
 		$("#hidden").css("display", "none");
 		for (var i = 0; i < restaurantes.length; i++) {
-			var img = restaurantes[i].image;
-			$("#img"+i).css("background-image", "url("+img+")");
+			var name = restaurantes[i].name;
+			$("#img"+i).css("background-image", "url("+name+")");
 			$("#img"+i).css("height", "100px");
 			$(".img.one").mouseover(function(){
 				$(".img.one").css("opacity", "0.34");
@@ -34,10 +34,10 @@ $(document).ready(()=> {
 	$("#food").click(function(){
 		$("#hidden").css("display", "none");
 		for (var i = 0; i < restaurantes.length; i++) {
-			var dish = restaurantes[i].dish;
-			$("#img"+i).css("background-image", "url("+dish+")");
+			var food = restaurantes[i].food;
+			$("#img"+i).css("background-image", "url("+food+")");
 			$("#img"+i).css("height", "100px");
-			console.log(dish);
+			console.log(food);
 		}
 	});
 
@@ -45,9 +45,9 @@ $(document).ready(()=> {
 		$("#hidden").css("display", "none");
 		for (var i = 0; i < restaurantes.length; i++) {
 			var loc = restaurantes[i].location;
-			$("#img"+i).css("background-image", "url("+dish+")");
+			$("#img"+i).css("background-image", "url("+loc+")");
 			$("#img"+i).css("height", "100px");
-			console.log(dish);
+			console.log(loc);
 		}
 	});
 
