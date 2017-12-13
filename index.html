@@ -64,7 +64,7 @@
 						<div class="col s12 comida">
 							<a class='dropdown-button btn' href='#' data-activates='dropdown1'>Busca tu restaurant <i class="material-icons">arrow_drop_down</i></a>
 						  <ul id='dropdown1' class='dropdown-content'>
-						    <li><a href="#!">Nombre Restaurant <i class="material-icons">format_quote</i></a></li>
+						    <li><a id="rest" href="#!">Nombre Restaurant <i class="material-icons">format_quote</i></a></li>
 						    <li class="divider"></li>
 						    <li><a href="#!">Tipo de Comida <i class="material-icons">local_dining</i></a></li>
 						    <li class="divider"></li>
@@ -78,16 +78,16 @@
 				<div class="container">
 					<div class="row">
 						<div class="col s4">
-							<div class="img one"></div>
+							<div class="img one" id="img0"></div>
+						</div>
+						<div class="col s4" >
+							<div class="img two" id="img1"></div>
 						</div>
 						<div class="col s4">
-							<div class="img two"></div>
-						</div>
-						<div class="col s4">
-							<div class="img three"></div>
+							<div class="img three" id="img2"></div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row" id="hidden">
 						<div class="col s6">
 							<div class="img four"></div>
 						</div>
@@ -106,7 +106,8 @@
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script src="assets/js/app.js"></script>
   <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  
 </body>
 </html>
